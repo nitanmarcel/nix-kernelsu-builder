@@ -13,6 +13,10 @@ in
     oemBootImg = "images/tetris/stock_boot.img";
     kernelSrc = sources.android-kernel-nothing-mt6878.src;
     enableKernelSU = false;
+    kernelMakeFlags = [
+      "KCFLAGS=\"-Wno-error -Wno-unused-variable\""
+      "KCPPFLAGS=\"-Wno-error -Wno-unused-variable\""
+        ];
   };
 
 }
