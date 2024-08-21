@@ -25,22 +25,8 @@ fetch.git = "https://github.com/tiann/KernelSU.git"
 src.manual = "11872"
 fetch.url = "https://example.com"
 
-[linux-amazon-karnak]
-src.git = "https://github.com/mt8163/android_kernel_amazon_karnak_4.9.git"
-src.branch = "lineage-20.0"
-fetch.github = "mt8163/android_kernel_amazon_karnak_4.9"
-
-[linux-moto-rtwo-lineageos-21]
-src.git = "https://github.com/moto-sm8550/android_kernel_motorola_sm8550.git"
-src.branch = "lineage-21"
-fetch.github = "moto-sm8550/android_kernel_motorola_sm8550"
-
-[linux-oneplus-8t-blu-spark]
-src.git = "https://github.com/engstk/op8.git"
-src.branch = "blu_spark-14-custom"
-fetch.github = "engstk/op8"
-
 [android-kernel-nothing-mt6878]
 src.git = "https://github.com/nitanmarcel/android_kernel_6.1_nothing_mt6878"
 src.branch = "mt6878/Tetris/u"
 fetch.github = "nitanmarcel/android_kernel_6.1_nothing_mt6878"
+git.fetchSubmodules = true
