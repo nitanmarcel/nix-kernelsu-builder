@@ -3,13 +3,13 @@
 {
   android-kernel-nothing-mt6878 = {
     pname = "android-kernel-nothing-mt6878";
-    version = "5fbf17122330d0264686f634a119cba0fe79eac7";
+    version = "cf348d89509dfa4cebe5f02d7034c7850248235c";
     src = fetchFromGitHub {
       owner = "nitanmarcel";
       repo = "android_kernel_6.1_nothing_mt6878";
-      rev = "5fbf17122330d0264686f634a119cba0fe79eac7";
-      fetchSubmodules = false;
-      sha256 = "sha256-17bYob6W44OWU3laiZ6PvoyulbYd2zzG62YraxLeIEo=";
+      rev = "cf348d89509dfa4cebe5f02d7034c7850248235c";
+      fetchSubmodules = true;
+      sha256 = "sha256-CnHPs1uZCE36W3TKmZysCHrF8lNIhPCuMf68FZYMNXM=";
     };
     date = "2024-08-21";
   };
@@ -81,41 +81,5 @@
       url = "https://example.com";
       sha256 = "sha256-6o+sfGX7WJsNU1YPUlH3T56bJDR43Laz6nm142RJyNk=";
     };
-  };
-  linux-amazon-karnak = {
-    pname = "linux-amazon-karnak";
-    version = "e22c713c7c4f0c8d08267f6bba98b8c4cde8310f";
-    src = fetchFromGitHub {
-      owner = "mt8163";
-      repo = "android_kernel_amazon_karnak_4.9";
-      rev = "e22c713c7c4f0c8d08267f6bba98b8c4cde8310f";
-      fetchSubmodules = false;
-      sha256 = "sha256-viqlQBPd2SuiAphFKiwjtckC3gDTGkbLv2dgZKMP3Oc=";
-    };
-    date = "2023-10-09";
-  };
-  linux-moto-rtwo-lineageos-21 = {
-    pname = "linux-moto-rtwo-lineageos-21";
-    version = "1c2aa53515b7c1d5629a84980470d9c1c2ece4e7";
-    src = fetchFromGitHub {
-      owner = "moto-sm8550";
-      repo = "android_kernel_motorola_sm8550";
-      rev = "1c2aa53515b7c1d5629a84980470d9c1c2ece4e7";
-      fetchSubmodules = false;
-      sha256 = "sha256-1czfscSPxDELAfyeNmrFG0x2GfCOl8CHe2C7GOsfR40=";
-    };
-    date = "2024-02-23";
-  };
-  linux-oneplus-8t-blu-spark = {
-    pname = "linux-oneplus-8t-blu-spark";
-    version = "14ce406421b82795d1e583ca89311e1b13f5a757";
-    src = fetchFromGitHub {
-      owner = "engstk";
-      repo = "op8";
-      rev = "14ce406421b82795d1e583ca89311e1b13f5a757";
-      fetchSubmodules = false;
-      sha256 = "sha256-Rk5IbeWpNKLFzfam5ylLMRNtl/4PdqoxuuRh3I5t6r0=";
-    };
-    date = "2024-08-21";
   };
 }
