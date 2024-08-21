@@ -1,4 +1,25 @@
 {
+    "android-kernel-nothing-mt6878": {
+        "cargoLocks": null,
+        "date": "2024-08-21",
+        "extract": null,
+        "name": "android-kernel-nothing-mt6878",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "nitanmarcel",
+            "repo": "android_kernel_6.1_nothing_mt6878",
+            "rev": "5fbf17122330d0264686f634a119cba0fe79eac7",
+            "sha256": "sha256-17bYob6W44OWU3laiZ6PvoyulbYd2zzG62YraxLeIEo=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "5fbf17122330d0264686f634a119cba0fe79eac7"
+    },
     "anykernel-kernelsu": {
         "cargoLocks": null,
         "date": "2023-10-30",
@@ -162,7 +183,7 @@
     },
     "linux-oneplus-8t-blu-spark": {
         "cargoLocks": null,
-        "date": "2024-07-09",
+        "date": "2024-08-21",
         "extract": null,
         "name": "linux-oneplus-8t-blu-spark",
         "passthru": null,
@@ -174,11 +195,11 @@
             "name": null,
             "owner": "engstk",
             "repo": "op8",
-            "rev": "1239b51d4f26fcd6ea7c446942e83e9aea156785",
-            "sha256": "sha256-VWYRDl8V++T34okJEMKydjEAVH3mlrMpUpnCfkqq7kg=",
+            "rev": "14ce406421b82795d1e583ca89311e1b13f5a757",
+            "sha256": "sha256-Rk5IbeWpNKLFzfam5ylLMRNtl/4PdqoxuuRh3I5t6r0=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "1239b51d4f26fcd6ea7c446942e83e9aea156785"
+        "version": "14ce406421b82795d1e583ca89311e1b13f5a757"
     }
 }
