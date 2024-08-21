@@ -3,13 +3,13 @@
 {
   android-kernel-nothing-mt6878 = {
     pname = "android-kernel-nothing-mt6878";
-    version = "cf348d89509dfa4cebe5f02d7034c7850248235c";
+    version = "710c1600e39cd55ae6fef2741776c5d69f54efb8";
     src = fetchFromGitHub {
       owner = "nitanmarcel";
       repo = "android_kernel_6.1_nothing_mt6878";
-      rev = "cf348d89509dfa4cebe5f02d7034c7850248235c";
+      rev = "710c1600e39cd55ae6fef2741776c5d69f54efb8";
       fetchSubmodules = true;
-      sha256 = "sha256-CnHPs1uZCE36W3TKmZysCHrF8lNIhPCuMf68FZYMNXM=";
+      sha256 = "sha256-0dRElAhTUTzv0/3QmLuvE7SmEXDDhK8N4VJfRm4Hk7w=";
     };
     date = "2024-08-21";
   };
