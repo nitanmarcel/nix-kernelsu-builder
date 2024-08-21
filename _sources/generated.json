@@ -106,7 +106,7 @@
     },
     "kernelsu-stable": {
         "cargoLocks": null,
-        "date": null,
+        "date": "2024-08-21",
         "extract": null,
         "name": "kernelsu-stable",
         "passthru": null,
@@ -116,27 +116,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "v0.9.5",
-            "sha256": "sha256-pvaL6KEB7X3s8zyLQSPhBhoXaNdVDthH7HnAZRE9JYk=",
+            "owner": "nitanmarcel",
+            "repo": "KernelSU-susfs",
+            "rev": "149df80d4884725442e02d6a66916fc4b4486fd5",
+            "sha256": "sha256-rPRj8CyrQXxtmashFGF1vapzTMWrsdxbrAoTZarc6Ns=",
             "sparseCheckout": [],
-            "type": "git",
-            "url": "https://github.com/tiann/KernelSU.git"
+            "type": "github"
         },
-        "version": "v0.9.5"
-    },
-    "kernelsu-stable-revision-code": {
-        "cargoLocks": null,
-        "date": null,
-        "extract": null,
-        "name": "kernelsu-stable-revision-code",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "name": null,
-            "sha256": "sha256-6o+sfGX7WJsNU1YPUlH3T56bJDR43Laz6nm142RJyNk=",
-            "type": "url",
-            "url": "https://example.com"
-        },
-        "version": "11872"
+        "version": "149df80d4884725442e02d6a66916fc4b4486fd5"
     }
 }
